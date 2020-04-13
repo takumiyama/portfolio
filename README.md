@@ -1,6 +1,5 @@
 # portfolio
-
-> My Portfolio Site
+[![CircleCI](https://circleci.com/gh/takumiyama/portfolio.svg?style=svg)](https://circleci.com/gh/takumiyama/portfolio)
 
 ## Build Setup
 
