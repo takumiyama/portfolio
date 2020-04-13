@@ -6,7 +6,7 @@ jobs:
       - image: circleci/node:8.10.0
     steps:
       - checkout
-      - run: echo 1 # ここにあなたのプロジェクトにあわせたテストを記述
+      - run: echo 1 # TODO:TEST
   deploy:
     working_directory: ~/app
     docker:
@@ -14,8 +14,8 @@ jobs:
     steps:
       - checkout
       - run: apk add --no-cache nodejs npm yarn
-      - run: yarn
-      - run: yarn build
+      - run: npm
+      - run: npm run build
       - run: echo $GCLOUD_SERVICE_KEY > ${HOME}/gcloud-service-key.json
       - run: gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
       - run: gcloud app deploy --quiet --project nenecchi-work
@@ -24,7 +24,7 @@ workflows:
   version: 2
   main:
     jobs:
-#      - build # TEST
+#      - build # TODO:TESTTEST
       - deploy:
           filters:
             branches:
