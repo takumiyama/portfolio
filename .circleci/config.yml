@@ -14,11 +14,11 @@ jobs:
     steps:
       - checkout
       - run: apk add --no-cache nodejs npm yarn
-      - run: npm
+      - run: npm install
       - run: npm run build
       - run: echo $GCLOUD_SERVICE_KEY > ${HOME}/gcloud-service-key.json
       - run: gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
-      - run: gcloud app deploy --quiet --project nenecchi-work
+      - run: gcloud app deploy --quiet --project $GCP_PROJECT_ID
 
 workflows:
   version: 2
