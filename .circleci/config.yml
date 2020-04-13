@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/app
     docker:
-      - image: circleci/node:8.10.0
+      - image: circleci/node:12
     steps:
       - checkout
       - run: echo 1 # TODO:TEST
