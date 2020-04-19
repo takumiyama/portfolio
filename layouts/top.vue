@@ -1,18 +1,15 @@
 <template>
   <div>
-    <navbar />
     <nuxt />
     <MyFooter />
   </div>
 </template>
 
 <script>
-import Navbar from '~/components/Navbar.vue'
 import MyFooter from '~/components/Footer.vue'
 
 export default {
   components: {
-    Navbar,
     MyFooter
   }
 }
