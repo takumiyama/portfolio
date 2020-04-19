@@ -40,6 +40,8 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
+    '@nuxtjs/bulma'
   ],
   /*
   ** Build configuration
