@@ -6,13 +6,13 @@
       </h3>
       <div class="media content-item">
         <div class="media-left">
-          <figure class="image is-64x64">
-            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+          <figure class="image is-96x96">
+            <img src="~assets/image/about.png" alt="Placeholder image">
           </figure>
         </div>
         <div class="media-content">
           <p class="title is-4">
-            Takumi
+            takumi
           </p>
           <p class="subtitle is-6">
             WebEngineer / ITConsultant
@@ -26,10 +26,10 @@
             Profile
           </p>
           <p>
-            2013年4月に大手Web会社に入社。そこから社内SEの開発部隊としてWebEngineerとしてのキャリアスタート。<br>
+            2013年4月に大手Web企業に入社。そこから社内SEの開発部隊としてWebEngineerとしてのキャリアスタート。<br>
             約8年間エンジニアリングを経験し、現在はITコンサルタントへキャリアチェンジ。個人で開発を行っています。<br>
             前職では主にPHP、Java8（springboot）でのバックエンド開発、nuxt.jsでのフロントエンド開発、CICDなどの環境構築を行っていました。<br>
-            趣味は、サッカー/フットサルをやることです。学生時代10年間サッカー部に所属していました。
+            趣味はサッカー/フットサルをやることです。学生時代10年間サッカー部に所属していました。
           </p>
         </div>
         <div class="content-item">
@@ -73,7 +73,7 @@
                   April 2013
                 </p>
                 <p>
-                  上京。大手Web会社の社内SEとして働き始める
+                  上京。大手Web企業の社内SEとして働き始める
                 </p>
               </div>
             </div>
@@ -87,7 +87,7 @@
                   April 2020
                 </p>
                 <p>
-                  転職。外資コンサル会社でITコンサルへキャリアチェンジ
+                  転職。外資コンサル企業でITコンサルへキャリアチェンジ
                 </p>
               </div>
             </div>
