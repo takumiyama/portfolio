@@ -7,7 +7,7 @@
       <div class="media content-item">
         <div class="media-left">
           <figure class="image is-96x96">
-            <img src="/image/about.png" alt="Placeholder image">
+            <img src="/image/about.png" alt="profile image">
           </figure>
         </div>
         <div class="media-content">
