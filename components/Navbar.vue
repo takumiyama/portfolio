@@ -18,11 +18,11 @@
         <nuxt-link to="/works" class="navbar-item title is-3">
           Works
         </nuxt-link>
-        <nuxt-link to="/" class="navbar-item title is-3">
-          Blog
-        </nuxt-link>
         <nuxt-link to="/contact" class="navbar-item title is-3">
           Contact
+        </nuxt-link>
+        <nuxt-link to="/" class="navbar-item title is-3">
+          Blog
         </nuxt-link>
       </div>
     </div><!-- navbar-menu END -->
