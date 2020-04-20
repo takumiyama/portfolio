@@ -2,7 +2,7 @@
   <div class="container">
     <div class="contants">
       <p class="title">
-        Takumi's Portfolio
+        Takumi's Web
       </p>
       <ul>
         <li>

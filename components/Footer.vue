@@ -13,7 +13,7 @@
       </a>
     </div>
     <p class="copyright">
-      ©2020 Takumi's Portfolio
+      ©2020 Takumi's Web
     </p>
   </div>
 </template>
