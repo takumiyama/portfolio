@@ -25,7 +25,9 @@
             Contact
           </nuxt-link>
         </li>
-        <li>Blog</li>
+        <li>
+          <a href="https://blog-takumin.dev/">Blog</a>
+        </li>
       </ul>
     </div>
   </div>

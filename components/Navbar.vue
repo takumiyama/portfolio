@@ -21,9 +21,8 @@
         <nuxt-link to="/contact" class="navbar-item title is-3">
           Contact
         </nuxt-link>
-        <nuxt-link to="/" class="navbar-item title is-3">
-          Blog
-        </nuxt-link>
+        <a href="https://blog-takumin.dev/" class="navbar-item title is-3">Blog</a>
+        <span class="navbar-item title is-3" />
       </div>
     </div><!-- navbar-menu END -->
   </nav>
