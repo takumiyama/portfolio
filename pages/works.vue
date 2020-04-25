@@ -22,7 +22,7 @@
           </p>
           <ul>
             <li>Portfolio</li>
-            <li><a href="">blog</a></li>
+            <li><a href="https://blog-takumin.dev/">blog</a></li>
           </ul>
         </div>
       </div>
